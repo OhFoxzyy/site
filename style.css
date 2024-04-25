@@ -1,0 +1,108 @@
+header {
+    background: rgba(42, 42, 42, 0.651);
+    padding: 20px;
+    text-align: left;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: top 0.3s ease;
+}
+
+iframe {
+  background-color: rgb(36, 36, 36);
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+  }
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.header a {
+  float: left;
+  color: rgb(105, 105, 105);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  color: rgba(255, 255, 255, 0.575)
+}
+
+.header a.active {
+  color: rgba(255, 255, 255)
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.container {
+  background-color: rgba(42, 42, 42, 0.651);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.game {
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+}
+
+.description {
+  padding: 10px;
+  color: rgb(175, 175, 175);
+}
+
+img {
+  max-width: 500px;
+  max-height: 250px;
+}
+
+h2 {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 5px 0;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
